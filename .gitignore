@@ -1,0 +1,6 @@
+tags
+*.log
+*.logs
+Pipfile.lock
+*.swp
+*.bak
