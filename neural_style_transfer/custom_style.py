@@ -6,14 +6,16 @@ import numpy as np
 from scipy.optimize import fmin_l_bfgs_b
 import time
 import tensorflow as tf
+import cv2
 
 
 tf.compat.v1.disable_eager_execution()
-# Evaluator returns the loss and the gradient in two separate functions, but
-# the calculation of the two variables
-# are dependent. This reduces the computation time, since otherwise it would
-# be calculated separately.
+
+
 class Evaluator(object):
+    # Evaluator returns the loss and the gradient in two separate functions,
+    # but the calculation of the two variables are dependent. This reduces
+    # the computation time, since otherwise it would be calculated separately.
 
     def __init__(self):
         self.loss_value = None
@@ -33,12 +35,14 @@ class Evaluator(object):
         self.grad_values = None
         return grad_values
 
+
 def preprocess_image(image_path):
     img = load_img(image_path, target_size=(img_nrows, img_ncols))
     img = img_to_array(img)
     img = np.expand_dims(img, axis=0)
     img = vgg19.preprocess_input(img)
     return img
+
 
 def deprocess_image(x):
     x = x.reshape((img_nrows, img_ncols, 3))
@@ -53,14 +57,17 @@ def deprocess_image(x):
     x = np.clip(x, 0, 255).astype('uint8')
     return x
 
+
 def content_loss(base, combination):
     return K.sum(K.square(combination - base))
+
 
 def gram_matrix(x):
     features = K.batch_flatten(
         K.permute_dimensions(x, (2, 0, 1)))  # channel first
     gram = K.dot(features, K.transpose(features))
     return gram
+
 
 def style_loss(style, combination):
     S = gram_matrix(style)
@@ -80,12 +87,11 @@ def total_variation_loss(x):
     return K.sum(K.pow(a + b, 1.25))
 
 
-# Evaluate the loss and the gradients respect to the generated image. It is
-# called in the Evaluator, necessary to
-# compute the gradients and the loss as two different functions (limitation of
-# the L-BFGS algorithm) without
-# excessive losses in performance
 def eval_loss_and_grads(x):
+    # Evaluate the loss and the gradients respect to the generated image. It
+    # is called in the Evaluator, necessary to compute the gradients and the
+    # loss as two different functions (limitation of the L-BFGS algorithm)
+    # without excessive losses in performance
     x = x.reshape((1, img_nrows, img_ncols, 3))
     outs = f_outputs([x])
     loss_value = outs[0]
@@ -98,12 +104,12 @@ def eval_loss_and_grads(x):
 
 img_nrows = 224
 img_ncols = 224
-base_image_path = 'origin_2.jpg'
-style_reference_image_path = '../pencil-effect.jpg'
+base_image_path = 'images/origin_2.jpg'
+style_reference_image_path = 'styles/style_1.jpg'
 content_weight = 0.025
 style_weight = 1
 total_variation_weight = 1
-iterations = 100
+iterations = 10
 
 
 # get tensor representations of our images
@@ -127,8 +133,9 @@ loss = K.variable(0.0)
 # contribution of content_loss
 feature_layers_content = outputs_dict['block5_conv2']
 combination_features = feature_layers_content[2, :, :, :]
-loss = loss + content_weight * content_loss(feature_layers_content,
-                                      combination_features)
+loss = loss + content_weight * content_loss(
+    feature_layers_content,
+    combination_features)
 
 # contribution of style_loss
 feature_layers = ['block1_conv1', 'block2_conv1',
@@ -172,4 +179,9 @@ for i in range(iterations):
     end_time = time.time()
     print('Image saved as', fname)
     print('Iteration %d completed in %ds' % (i, end_time - start_time))
+    print('Show image')
+    show_img = cv2.imread(fname)
 
+cv2.imshow('Result', show_img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
