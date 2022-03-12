@@ -1,0 +1,157 @@
+2022-03-05 16:12:40,360 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:12:40,363 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:12:40,425 - __main__ - INFO - Tải mô hình
+2022-03-05 16:12:40,479 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:14:45,640 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:14:45,643 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:14:45,710 - __main__ - INFO - Tải mô hình
+2022-03-05 16:14:45,810 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:16:18,915 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:16:18,920 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:16:18,977 - __main__ - INFO - Tải mô hình
+2022-03-05 16:16:19,061 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:16:19,193 - __main__ - INFO - Chạy forward
+2022-03-05 16:17:35,258 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:17:35,261 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:17:35,315 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:17:35,315 - __main__ - INFO - Tải mô hình
+2022-03-05 16:17:35,379 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:17:35,531 - __main__ - INFO - Chạy forward
+2022-03-05 16:17:56,310 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:17:56,313 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:17:56,319 - __main__ - INFO - width: 650, height: 535
+2022-03-05 16:17:56,319 - __main__ - INFO - Tải mô hình
+2022-03-05 16:17:56,369 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:17:56,376 - __main__ - INFO - Chạy forward
+2022-03-05 16:17:56,825 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:17:56,826 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:22:45,440 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:22:45,443 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:22:45,448 - __main__ - INFO - width: 650, height: 535
+2022-03-05 16:22:45,448 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:22:45,451 - __main__ - INFO - width: 260, height: 214
+2022-03-05 16:22:45,451 - __main__ - INFO - Tải mô hình
+2022-03-05 16:22:45,503 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:22:45,504 - __main__ - INFO - Chạy forward
+2022-03-05 16:22:45,598 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:22:45,599 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:22:52,651 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:22:52,654 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:22:52,734 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:22:52,735 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:22:52,738 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:22:52,738 - __main__ - INFO - Tải mô hình
+2022-03-05 16:22:52,786 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:22:52,799 - __main__ - INFO - Chạy forward
+2022-03-05 16:22:53,814 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:22:53,817 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:23:55,735 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:23:55,737 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:23:55,796 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:23:55,796 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:23:55,801 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:23:55,801 - __main__ - INFO - Tải mô hình
+2022-03-05 16:23:55,859 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:23:55,869 - __main__ - INFO - Chạy forward
+2022-03-05 16:23:56,883 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:23:56,887 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:24:37,316 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:24:37,319 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:24:37,378 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:24:37,378 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:24:37,380 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:24:37,381 - __main__ - INFO - Tải mô hình
+2022-03-05 16:24:37,436 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:24:37,446 - __main__ - INFO - Chạy forward
+2022-03-05 16:24:38,427 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:24:38,430 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:24:42,341 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:24:42,345 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:24:42,406 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:24:42,407 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:24:42,409 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:24:42,409 - __main__ - INFO - Tải mô hình
+2022-03-05 16:24:42,460 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:24:42,475 - __main__ - INFO - Chạy forward
+2022-03-05 16:24:43,517 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:24:43,521 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:24:45,135 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:24:45,140 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:24:45,205 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:24:45,206 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:24:45,208 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:24:45,209 - __main__ - INFO - Tải mô hình
+2022-03-05 16:24:45,258 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:24:45,269 - __main__ - INFO - Chạy forward
+2022-03-05 16:24:47,292 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:24:47,296 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:24:49,389 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:24:49,392 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:24:49,453 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:24:49,453 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:24:49,455 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:24:49,455 - __main__ - INFO - Tải mô hình
+2022-03-05 16:24:49,513 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:24:49,527 - __main__ - INFO - Chạy forward
+2022-03-05 16:24:50,539 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:24:50,542 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:24:53,855 - __main__ - INFO - Đọc tham số truyền vào
+2022-03-05 16:24:53,858 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:24:53,916 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:24:53,916 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:24:53,918 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:24:53,918 - __main__ - INFO - Tải mô hình
+2022-03-05 16:24:53,968 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:24:53,978 - __main__ - INFO - Chạy forward
+2022-03-05 16:24:55,955 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:24:55,958 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:25:41,823 - __main__ - INFO - Chạy mô hình: models/la_muse.t7
+2022-03-05 16:25:41,823 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:25:41,882 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:25:41,882 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:25:41,884 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:25:41,885 - __main__ - INFO - Tải mô hình
+2022-03-05 16:25:41,925 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:25:41,937 - __main__ - INFO - Chạy forward
+2022-03-05 16:25:42,959 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:25:42,962 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:25:48,488 - __main__ - INFO - Chạy mô hình: models/mosaic.t7
+2022-03-05 16:25:48,488 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:25:48,545 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:25:48,545 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:25:48,547 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:25:48,547 - __main__ - INFO - Tải mô hình
+2022-03-05 16:25:48,600 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:25:48,610 - __main__ - INFO - Chạy forward
+2022-03-05 16:25:49,620 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:25:49,623 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:25:52,439 - __main__ - INFO - Chạy mô hình: models/starry_night.t7
+2022-03-05 16:25:52,439 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:25:52,499 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:25:52,499 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:25:52,501 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:25:52,501 - __main__ - INFO - Tải mô hình
+2022-03-05 16:25:52,548 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:25:52,558 - __main__ - INFO - Chạy forward
+2022-03-05 16:25:54,531 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:25:54,534 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:25:55,829 - __main__ - INFO - Chạy mô hình: models/the_scream.t7
+2022-03-05 16:25:55,829 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:25:55,888 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:25:55,888 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:25:55,890 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:25:55,891 - __main__ - INFO - Tải mô hình
+2022-03-05 16:25:55,940 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:25:55,953 - __main__ - INFO - Chạy forward
+2022-03-05 16:25:56,944 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:25:56,948 - __main__ - INFO - Hiển thị ảnh kết quả
+2022-03-05 16:25:58,759 - __main__ - INFO - Chạy mô hình: models/the_wave.t7
+2022-03-05 16:25:58,760 - __main__ - INFO - Đọc ảnh đầu vào
+2022-03-05 16:25:58,821 - __main__ - INFO - width: 2560, height: 1920
+2022-03-05 16:25:58,821 - __main__ - INFO - Giảm kích cỡ ảnh
+2022-03-05 16:25:58,823 - __main__ - INFO - width: 1024, height: 768
+2022-03-05 16:25:58,823 - __main__ - INFO - Tải mô hình
+2022-03-05 16:25:58,872 - __main__ - INFO - Chạy mô hình
+2022-03-05 16:25:58,882 - __main__ - INFO - Chạy forward
+2022-03-05 16:26:00,886 - __main__ - INFO - Tiền xử lý ảnh kết quả
+2022-03-05 16:26:00,889 - __main__ - INFO - Hiển thị ảnh kết quả
